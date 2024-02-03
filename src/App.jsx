@@ -2,10 +2,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className='flex flex-col justify-center items-center w-screen h-screen'>
-      <div>
+    <div className='flex flex-col justify-center items-center w-screen h-auto sm:h-screen'>
+      <div className='my-8 sm:m-auto'>
         <div className='mb-4 font-semibold text-left'>Select Distribution</div>
-        <div className='flex gap-4'>
+        <div className='flex gap-4 flex-col sm:flex-row'>
           <div className='w-80 h-[420px] p-[2px] rounded-md bg-gray-100 hover:bg-transparent hover:bg-gradient-to-b hover:from-red-700 hover:via-gray-300 hover:to-transparent hover:shadow-lg hover:shadow-gray-300'>
             <div className='h-full p-6 bg-white rounded-md'>
               <img className='mb-6' src='./airplane.png' alt='Airplane logo'/>
